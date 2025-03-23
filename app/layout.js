@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
 import Splash from "./components/SplashScreen";
 
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
       >
        <Splash/>
        <div className="opacity-0 animate-fade-in">{children}</div>
+       <Analytics />
       </body>
     </html>
   );
