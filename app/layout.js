@@ -29,6 +29,11 @@ export const metadata = {
       },
     ],
   },
+  icons: {
+    icon: "/favicon.ico", // For regular favicon
+    shortcut: "/favicon.ico", // Shortcut icon (optional)
+    apple: "/apple-touch-icon.png", // Apple devices icon (optional)
+  },
 };
 
 
