@@ -22,7 +22,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "/OG-Image.jpg",
+        url: "https://next-gsap-chi.vercel.app/OG-Image.jpg",
         width: 1200,
         height: 630,
         alt: "Trendy summer fashion and accessories",
